@@ -8,12 +8,11 @@
 
 3. The customer wants to know if there is a connection between `Access to Electricity` and `CO2 Emissions`. He assumes that the easierlectricity, the more likely the usage of electric cars, electrical furnaces, and heat pumps will the access to e be. Can you provide an analysis?
 
-
-## Instructions
-
-You are free to use whatever you want. Python, TypeScript, Julia, Pandas, Polars, or Mojo. Or even R, if you like. Also, AI-assisted IDEs are free to go. 
-
-If you generate your code, please explain it! Think critically. Search engines and manuals are free to use. 
+> [!IMPORTANT]
+> You can use whatever you want: Python, TypeScript, Julia, Pandas, Polars, Mojo, or even R and Excel. 
+> Also, AI-assisted IDEs are welcome.
+> 
+> Please feel free to generate all the code you want! We want you to explain it, however. This challenge is not about demonstrating your coding skills, but your analytical thinking for data. 
 
 ## Technical Provisioning
 
