@@ -12,7 +12,7 @@
 > You can use whatever you want: Python, TypeScript, Julia, Pandas, Polars, Mojo, or even R and Excel. 
 > Also, AI-assisted IDEs are welcome.
 >
-> Please feel free to generate all the code you want! Please explain it, however. **This challenge is not about demonstrating your coding skills, but your analytical thinking for data!!!** 
+> Please feel free to generate all the code you want! Please explain it, however. **This challenge is not about your coding skills but your analytical thinking for data!** 
 
 ## Technical Provisioning
 
