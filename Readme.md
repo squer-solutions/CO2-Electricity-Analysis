@@ -1,26 +1,13 @@
-# CO2 and Electricity Access Analysis
+# AI On-site Challenges
 
-## Tasks
+This repository contains two challenges. If you're not instructed otherwise, please start with 
 
-1. In the `datasets` directory, you see several CSV files containing data points from https://data.worldbank.org and https://ourworldindata.org/. Your first task is to load those files into a common `Dataframe`. Study the data in terms of usability and quality. The `Dataframe` should only contain the intersection of countries in both datasets.
-
-2. A customer wants an interactive Plot. Create two plots. Both plots should use the same color per country and should only contain countries that exist in both datasets. 
-
-3. The customer wants to know if there is a connection between `Access to Electricity` and `CO2 Emissions`. He assumes that the easier electricity is accessible, the more likely electric cars, electrical furnaces, and heat pumps will be used. Can you provide an analysis?
+1. [The data science challenge](./1_DataScience_Challenge.md) and continue afterwards with 
+2. [The data engineering challenge](./2_DataEngineering_Challenge.md)
 
 > [!IMPORTANT]
-> You can use whatever you want: Python, TypeScript, Julia, Pandas, Polars, Mojo, or even R and Excel. 
-> Also, AI-assisted IDEs are welcome.
->
-> Please feel free to generate all the code you want! Please explain it, however. **This challenge is not about your coding skills but your analytical thinking for data!** 
+> To us, it is important to see how you think, analyze, and fit certain tools together. There is no need to do
+> something in one specific technology as long as you have a sufficient replacement. Overall, the most
+> important part is to get the job done and ask the right questions. 
 
-## Technical Provisioning
-
-It is not required to use Python! However, if you want to make use of PDM
-
-```bash
-curl -sSL https://pdm-project.org/install-pdm.py | python3 -
-pdm install
-```
-
-You will find the interpreter in `.venv/bin/python`
+Have fun and good luck! 

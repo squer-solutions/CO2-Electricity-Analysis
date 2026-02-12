@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:e858950a8fb5f2208c732b256be0d4730b0889bacef66d86318b859080f73265"
+content_hash = "sha256:137eebb1d9032e208e6a0e7c92ca81b5c1ee5a105da3805bbc792d7fc8973e37"
 
 [[metadata.targets]]
 requires_python = "==3.13.*"
@@ -549,6 +549,16 @@ files = [
 ]
 
 [[package]]
+name = "py4j"
+version = "0.10.9.7"
+summary = "Enables Python programs to dynamically access arbitrary Java objects"
+groups = ["default"]
+files = [
+    {file = "py4j-0.10.9.7-py2.py3-none-any.whl", hash = "sha256:85defdfd2b2376eb3abf5ca6474b51ab7e0de341c75a02f46dc9b5976f5a5c1b"},
+    {file = "py4j-0.10.9.7.tar.gz", hash = "sha256:0b6e5315bb3ada5cf62ac651d107bb2ebc02def3dee9d9548e3baac644ea8dbb"},
+]
+
+[[package]]
 name = "pycparser"
 version = "2.22"
 requires_python = ">=3.8"
@@ -569,6 +579,19 @@ groups = ["default"]
 files = [
     {file = "pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b"},
     {file = "pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"},
+]
+
+[[package]]
+name = "pyspark"
+version = "3.5.0"
+requires_python = ">=3.8"
+summary = "Apache Spark Python API"
+groups = ["default"]
+dependencies = [
+    "py4j==0.10.9.7",
+]
+files = [
+    {file = "pyspark-3.5.0.tar.gz", hash = "sha256:d41a9b76bd2aca370a6100d075c029e22ba44c5940927877e9435a3a9c566558"},
 ]
 
 [[package]]
