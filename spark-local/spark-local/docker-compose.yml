@@ -1,0 +1,19 @@
+version: "3.8"
+
+services:
+  spark:
+    image: apache/spark:3.5.0
+    container_name: spark-master
+    hostname: spark-master
+    command: /opt/spark/sbin/start-master.sh -p 7077 && tail -f /opt/spark/logs/*
+    environment:
+      - SPARK_NO_DAEMONIZE=true
+    ports:
+      - "8080:8080" # Spark Web UI
+      - "7077:7077" # Spark Master Port
+    networks:
+      - spark-network
+
+networks:
+  spark-network:
+    driver: bridge
