@@ -1,9 +1,9 @@
 # AI On-site Challenges
 
-This repository contains two challenges. If you're not instructed otherwise, please start with 
+If you're not instructed otherwise, please start with 
 
-1. [The data science challenge](./1_DataScience_Challenge.md) and continue afterwards with 
-2. [The data engineering challenge](./2_DataEngineering_Challenge.md)
+1. [The data science challenge](./1_DataScience_Challenge.md) 
+
 
 > [!IMPORTANT]
 > To us, it is important to see how you think, analyze, and fit certain tools together. There is no need to do

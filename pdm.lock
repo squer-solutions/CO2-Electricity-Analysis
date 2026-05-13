@@ -5,7 +5,7 @@
 groups = ["default"]
 strategy = ["inherit_metadata"]
 lock_version = "4.5.0"
-content_hash = "sha256:137eebb1d9032e208e6a0e7c92ca81b5c1ee5a105da3805bbc792d7fc8973e37"
+content_hash = "sha256:a29c552992ed0037161e76c1166e9b8f70f4c6e17d9c31a06b822f82f324d268"
 
 [[metadata.targets]]
 requires_python = "==3.13.*"
@@ -427,20 +427,6 @@ files = [
 ]
 
 [[package]]
-name = "patsy"
-version = "1.0.1"
-requires_python = ">=3.6"
-summary = "A Python package for describing statistical models and for building design matrices."
-groups = ["default"]
-dependencies = [
-    "numpy>=1.4",
-]
-files = [
-    {file = "patsy-1.0.1-py2.py3-none-any.whl", hash = "sha256:751fb38f9e97e62312e921a1954b81e1bb2bcda4f5eeabaf94db251ee791509c"},
-    {file = "patsy-1.0.1.tar.gz", hash = "sha256:e786a9391eec818c054e359b737bbce692f051aee4c661f4141cc88fb459c0c4"},
-]
-
-[[package]]
 name = "pexpect"
 version = "4.9.0"
 summary = "Pexpect allows easy control of interactive console applications."
@@ -549,16 +535,6 @@ files = [
 ]
 
 [[package]]
-name = "py4j"
-version = "0.10.9.7"
-summary = "Enables Python programs to dynamically access arbitrary Java objects"
-groups = ["default"]
-files = [
-    {file = "py4j-0.10.9.7-py2.py3-none-any.whl", hash = "sha256:85defdfd2b2376eb3abf5ca6474b51ab7e0de341c75a02f46dc9b5976f5a5c1b"},
-    {file = "py4j-0.10.9.7.tar.gz", hash = "sha256:0b6e5315bb3ada5cf62ac651d107bb2ebc02def3dee9d9548e3baac644ea8dbb"},
-]
-
-[[package]]
 name = "pycparser"
 version = "2.22"
 requires_python = ">=3.8"
@@ -579,19 +555,6 @@ groups = ["default"]
 files = [
     {file = "pygments-2.19.2-py3-none-any.whl", hash = "sha256:86540386c03d588bb81d44bc3928634ff26449851e99741617ecb9037ee5ec0b"},
     {file = "pygments-2.19.2.tar.gz", hash = "sha256:636cb2477cec7f8952536970bc533bc43743542f70392ae026374600add5b887"},
-]
-
-[[package]]
-name = "pyspark"
-version = "3.5.0"
-requires_python = ">=3.8"
-summary = "Apache Spark Python API"
-groups = ["default"]
-dependencies = [
-    "py4j==0.10.9.7",
-]
-files = [
-    {file = "pyspark-3.5.0.tar.gz", hash = "sha256:d41a9b76bd2aca370a6100d075c029e22ba44c5940927877e9435a3a9c566558"},
 ]
 
 [[package]]
@@ -770,23 +733,6 @@ dependencies = [
 files = [
     {file = "stack_data-0.6.3-py3-none-any.whl", hash = "sha256:d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695"},
     {file = "stack_data-0.6.3.tar.gz", hash = "sha256:836a778de4fec4dcd1dcd89ed8abff8a221f58308462e1c4aa2a3cf30148f0b9"},
-]
-
-[[package]]
-name = "statsmodels"
-version = "0.14.2"
-requires_python = ">=3.9"
-summary = "Statistical computations and models for Python"
-groups = ["default"]
-dependencies = [
-    "numpy>=1.22.3",
-    "packaging>=21.3",
-    "pandas!=2.1.0,>=1.4",
-    "patsy>=0.5.6",
-    "scipy!=1.9.2,>=1.8",
-]
-files = [
-    {file = "statsmodels-0.14.2.tar.gz", hash = "sha256:890550147ad3a81cda24f0ba1a5c4021adc1601080bd00e191ae7cd6feecd6ad"},
 ]
 
 [[package]]
