@@ -20,11 +20,4 @@
 
 ## Technical Provisioning
 
-It is not required to use Python! However, if you want to make use of PDM
-
-```bash
-curl -sSL https://pdm-project.org/install-pdm.py | python3 -
-pdm install
-```
-
-You will find the interpreter in `.venv/bin/python`
+See the [Getting Started](./Readme.md#getting-started) section in the README for how to set up the environment (uv, Python 3.13, dependencies).
